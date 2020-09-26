@@ -1,0 +1,674 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+   text-decoration: none;
+   font-family: 'Bad Script', cursive;
+    
+}
+body{
+    min-height:100vh; 
+}
+
+
+.header{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/soap.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.menu{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+  
+   
+    
+}
+.menu-items{
+    display: flex;
+    margin-right: 100px;
+    font-size: 13px;
+    font-family: 'Bad Script', cursive;
+    font-weight: 100;
+    text-decoration: none;
+   
+    
+}
+.menu-item{
+    margin:20px;
+  
+}
+.menu-item a:hover{
+    color:#FED136;
+}
+.start-bootstrap{
+    color:rgb(255, 243, 139,0.8);
+    font-size: 21px;
+    font-style: italic;
+    margin: 20px;
+    margin-left: 200px;
+    cursor: pointer;
+    font-family: 'Bad Script', cursive;
+    
+}
+.header-centar{
+    height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.welocme-text{
+    font-size: 40px;
+    font-family: 'Bad Script', cursive;
+    margin: 10px;
+   
+    
+}
+.header-button{
+    background-color:#FED136;
+    height: 35px;
+    width: 150px;
+    border: none;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
+}
+.header-button:hover{
+   background-color:rgb(214, 170, 11);
+   cursor: pointer;
+}
+.header-title{
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-family: 'Bad Script', cursive;
+    
+
+}
+.content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.content-title{
+    color:rgb(78, 76, 76);
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: 'Bad Script', cursive;
+
+}
+.content-description{
+    color: grey;
+    font-size: 23px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: 'Bad Script', cursive;
+  
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    cursor: pointer;
+   
+    
+}
+.box-title{
+    color:rgb(78, 76, 76);
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
+}
+.box-text{
+    color: black;
+    margin: 10px;
+    color: gray;
+    font-size: 16px;
+    font-family: 'Bad Script', cursive;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .box{
+         width: 33%;
+    }
+    .start-bootstrap{
+        display: none;
+     }
+ }
+@media only screen and (max-width: 800px) {
+   .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+   .box{
+        width: 60%;
+   }
+   .start-bootstrap{
+    display: none;
+  }
+  .menu{
+      position: static;
+  }
+  .menu-items{
+      display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+    .box{
+         width:80%;
+    }
+   
+    
+    
+    
+ }
+
+ 
+ .header-centar1{
+    height: 100vh;
+    background: linear-gradient( rgba(56, 56, 56, 0.596), rgba(107, 106, 106, 0.123) ), url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+ }
+    .welocme-text1
+    {
+        font-size: 45px;
+        font-family: 'Bad Script', cursive;
+        margin: 30px;
+        margin-top: 100px;
+     
+     
+        
+    }
+
+    .header-title1
+    {
+        font-size: 35px;
+        letter-spacing: 3px;
+        margin: 20px;
+        margin-bottom: 300px;
+        font-family: 'Bad Script', cursive;
+        
+        
+    }
+    .container
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+font-family: 'Bad Script', cursive;
+width: 100%;
+
+
+ }
+
+
+ .item1
+{
+
+height: 100px;
+margin: 15px;
+flex-grow: 1;
+align-items:center;
+font-size: 18px;
+margin-bottom: 550px;
+color: grey;
+margin-top: 150px;
+
+}
+
+.item2
+{
+
+height:100px ;
+margin: 10px;
+flex-grow: 1;
+align-items: center;
+font-size: 18px;
+color: grey;
+margin-top: 150px;
+
+
+}
+.item3
+{
+
+height:100px ;
+margin: 10px;
+flex-grow:1;
+align-items: center;
+font-size: 18px;
+color: grey;
+margin-top: 150px;
+}
+
+.item1 h2{
+    padding-top: 50px;
+    margin-top: 40px;
+    color: rgb(117, 115, 115);
+
+    
+}
+
+.item2 h2{
+    padding-top: 50px;
+    margin-top: 40px;
+    color: rgb(117, 115, 115);
+    
+    
+}
+
+
+.item3 h2{
+    padding-top: 50px;
+    margin-top: 40px;
+    color:rgb(117, 115, 115);
+    
+    
+}
+@media only screen and (max-width: 1300px) {
+    .header-centar1 {
+      /* The file size of this background image is 93% smaller
+         to improve page load speed on mobile internet connections */
+      background-image: url('../images/2.jpg');
+     
+      
+      
+    }
+  }
+
+
+
+
+
+  @media screen and (max-width: 1100px) {
+   
+    .item1 {
+        display: none;
+    }
+
+    .item2 {
+        display: none;
+    }
+    .item3 {
+        display: none;
+    }
+
+
+    }
+  
+
+
+img{
+    border-radius: 10px;
+}
+
+  .title1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Bad Script', cursive;
+    margin-bottom: 20px;
+  
+    
+
+  }
+
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .title-text1
+  {
+    font-size: 50px;
+    font-style: bold;
+      color:rgb(126, 122, 122);
+     
+
+  }
+
+  .title-text2
+  {
+      color: gray;
+      font-size: 35px;
+   
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #FED136;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  input[type=submit]:hover {
+    background-color:rgb(214, 170, 11);
+    cursor: pointer;
+    
+  }
+  
+  /* Style the container/contact section */
+  .container3 {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column2 {
+ 
+    width: 25%;
+    margin-top: 6px;
+    padding: 20px;
+    color: grey;
+  }
+
+  .column1
+  {
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    color: grey;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .texth2
+  {
+    color:grey;
+    font-size: 50px;
+    padding-top: 40px;
+
+    
+  }
+
+  .text3
+  {
+    color: grey;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
+  .text-align1
+  {
+    color:grey;
+    font-size: 40px;
+ 
+  
+    
+  }
+  .text-align2
+  {
+    color: grey;
+    font-size: 30px;
+    padding-bottom: 100px;
+   
+    
+  }
+
+  .fname
+  {
+    color: black;
+    font-size: 25px;
+  }
+  .lname
+  { 
+ color: black;
+ font-size: 25px;
+  }
+  .country
+{
+  color: black;
+  font-size: 25px;
+}
+.subject
+{
+  color: black;
+  font-size: 25px;
+}
+
+.australia
+{
+  color: black;
+  font-size: 20px;
+}
+.canada{
+  color: black;
+  font-size: 20px;
+}
+
+.usa{
+  color: black;
+  font-size: 20px;
+}
+.fname1 
+{
+  color: black;
+  font-size: 18px;
+}
+.lname1
+{
+  color: black;
+  font-size: 18px;
+}
+.subject1
+{
+  color: black;
+  font-size: 18px;
+}
+.country1
+{
+  color: black;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 20px;
+  padding: 25px;
+
+  
+}
+
+.footer p
+{
+  color: #8e8f8f;
+  
+}
+
+.material-icons
+{
+  color: #FED136;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .column2{
+       width:50%;
+  }
+
+  
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .column2{
+       width:50%;
+  }
+ 
+}
+
+@media only screen and (max-width: 700px) {
+  .header-button
+  {
+    width: 20%;;
+  }
+  
+}
+
+@media screen and (orientation: landscape) {
+
+  div { float: center }
+
+}
+@media screen and (orientation: portrait) {
+
+  div { float: none }
+
+}
+
+@media screen and (max-width: 550px) {
+  .welocme-text {
+    font-size: 100%;
+    
+  }
+  .header-title
+  {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .content-title {
+    font-size: 100%;
+    
+  }
+  .content-description
+  {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .welocme-text1 {
+    font-size: 100%;
+    
+  }
+  .header-title1
+  {
+    font-size: 100%;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .title-text1{
+    font-size: 100%;
+    
+  }
+  .title-text2
+  {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .texth2{
+    font-size: 100%;
+    
+  }
+  .text3
+  {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .text-align1{
+    font-size: 100%;
+    
+  }
+ 
+}
